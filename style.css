@@ -1,0 +1,28 @@
+.navbar{
+    height:5vw;
+    width: 100vw;
+    background-color: #69b7eb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar .navbutton{
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 10px 24px;
+    border-radius: 4px;
+    background-color: lightblue;
+
+}
+.titlepage .title{
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.titlepage{
+    width: 100vw;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
+    height: 1000px;
+    position: absolute;
+}
