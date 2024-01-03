@@ -13,6 +13,10 @@
     background-color: lightblue;
 
 }
+.navbar .navbutton:hover{
+    background-color: #69b7eb;
+    cursor: pointer;
+}
 .titlepage .title{
     font-family: Verdana, Tahoma, sans-serif;
     text-align: center;
@@ -22,7 +26,13 @@
 .titlepage{
     width: 100vw;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
+    background: linear-gradient( #69b7eb, #b3dbd3, #f4d6db);
     height: 1000px;
     position: absolute;
+}
+.titlepage .proobhat{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
